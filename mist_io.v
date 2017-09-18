@@ -62,6 +62,7 @@ module mist_io #(parameter STRLEN=0, parameter PS2DIV=100)
 	input             sd_conf,
 	input             sd_sdhc,
 	output            img_mounted, 				// signaling that new image has been mounted
+	output reg        img_readonly, 			// mounted as read only. valid only for active bit in img_mounted
 	output reg [31:0] img_size,    				// size of image in bytes
 
 	// SD block level access
