@@ -1,8 +1,5 @@
 # MIST_C64
-FPGA implementation of a Commodore 64
 
-Please forgive the dodgy coding as this was a work in progress and also my first verilog/vhdl coding experience.....
+This is a fork of the MIST C64 . . . I merged in the disk write code from Sorgelig's Mister C64 code and then the Disk change Mod a bit later on.
 
-The cartridge code was a simple redirection of the address bus....
-
-There are glaring problems with the source which i was in the progress of trying to solve, I suspect the CIA to be at fault and this fails most of the VICE CIA test programs....
+There is a modification to this a bit later on by Gehstock to do the C64GS mod, so it's not the latest code.
